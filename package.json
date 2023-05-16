@@ -1,0 +1,25 @@
+{
+  "name": "@trackmaniaindo/signpacks",
+  "version": "1.0.0",
+  "description": "Scripts to help with generating Trackmania Indonesia signpacks.",
+  "type": "module",
+  "main": "N/A",
+  "repository": "https://resir014@github.com/Trackmania-Indonesia/signpacks.git",
+  "author": "Resi Respati <resir014@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "delete-loc": "rimraf --glob public/**/*.loc",
+    "generate-loc": "node scripts/generate-loc.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "file-url": "^4.0.0",
+    "glob": "^10.2.2",
+    "ora": "^6.3.0",
+    "rimraf": "^5.0.0"
+  }
+}
